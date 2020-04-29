@@ -1,0 +1,82 @@
+/****MAIN*****/
+body {
+  background-image: linear-gradient(to right bottom, #8e94f2, #a49cf5, #b8a4f7, #caadf9, #dab6fc);
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  padding: 2em;
+  color: #aaa;
+}
+ul {
+  list-style-type: none;
+}
+/****HEAD-CARD*****/
+#head-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 10px;
+}
+#head-card h1, h2 {
+  font-family: 'Montserrat';
+  font-size: 1.2em;
+  letter-spacing: 0.3rem;
+  font-weight: 300;
+}
+#head-card h1 {
+  padding: .5em;
+}
+#head-card h2 {
+  font-size: 1em;
+  margin-top: .2em;
+}
+#btn-purple {
+  background: #DAB6FC;
+  margin-top: 2em;
+  width: 15em;
+  height: 5em;
+  color: white;
+  font-size: 1em;
+  box-shadow: 3px 3px #8E94F2;
+  border-radius: 2em;
+  padding: .5em 0;
+  transition: background .1s ease-in;
+}
+#btn-purple:hover {
+    background: #9FA0FF;
+}
+#profile-pic {
+  width: 10em;
+  height: 10em;
+  border-radius: 10em;
+  box-shadow: 1em;
+}
+/*CARDS*/
+.card-white {
+  margin: 2em;
+  padding: 2em;
+  background: white;
+}
+.card-white h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+.card-white ul {
+  margin: 0 auto;
+}
+#skills-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.social-media-list__flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.list-icons {
+  color: #8E94F2;
+  font-size: 1.5em;
+  transition: color .1s ease-in;
+}
+.list-icons:hover {
+    color: #9FA0FF;
+}
